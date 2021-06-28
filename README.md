@@ -27,7 +27,7 @@ Klipper configuration files (Vertex Delta K8800, FLSUN QQ-S Pro)
 - Spring belt tensioning
 
 # menuconfig template files for Klipper boards
->cp menuconfig.<xxx> ~/klipper/.config
+>cp menuconfig.xxx ~/klipper/.config
 >make clean
 >sudo systemctrl stop klipper*.service
 
@@ -59,6 +59,6 @@ Flash according to board specific info
 	Flashing:
 	  make
 	  update_mks_robin.py out/klipper.bin robin_mini.bin
-	  - copy the robin_mini.bin file to the printer's SD card
+	  - copy the robin_mini.bin file to the printers SD card
 	  - insert SD card into printer
 	  - remove USB cable, toggle power switch, attach USB cable
