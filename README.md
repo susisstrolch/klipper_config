@@ -3,8 +3,10 @@ Klipper configuration files (Vertex Delta K8800, FLSUN QQ-S Pro)
 
 ### FLSUN QQ-S Pro - printer-1
 - TMC2209 StepSticks, UART mode, wires connected to wifi expansion socket
-YouTube - MakerbaseTeam [https://www.youtube.com/watch?v=7ShcFKXrVHo&t=29s&ab_channel=MakerbaseTeam](https://www.youtube.com/watch?v=7ShcFKXrVHo&t=29s&ab_channel=MakerbaseTeam) 
-Foxies-CSTL FLSUN_QQS-PRO Marlin Firmwares [https://github.com/Foxies-CSTL/Marlin_2.0.x/tree/FLSUN_QQS-PRO-MULTI/Marlin/Firmwares#31-TMC-with-UART-mode](https://github.com/Foxies-CSTL/Marlin_2.0.x/tree/FLSUN_QQS-PRO-MULTI/Marlin/Firmwares#31-TMC-with-UART-mode) 
+
+  YouTube - MakerbaseTeam [https://www.youtube.com/watch?v=7ShcFKXrVHo&t=29s&ab_channel=MakerbaseTeam](https://www.youtube.com/watch?v=7ShcFKXrVHo&t=29s&ab_channel=MakerbaseTeam)
+  
+  Foxies-CSTL FLSUN_QQS-PRO Marlin Firmwares [https://github.com/Foxies-CSTL/Marlin_2.0.x/tree/FLSUN_QQS-PRO-MULTI/Marlin/Firmwares#31-TMC-with-UART-mode](https://github.com/Foxies-CSTL/Marlin_2.0.x/tree/FLSUN_QQS-PRO-MULTI/Marlin/Firmwares#31-TMC-with-UART-mode) 
 - BMC extruder, mounted to the side of the printer.
 - alternative Sherpa extruder
 - Capricorn bowden
