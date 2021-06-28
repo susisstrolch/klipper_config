@@ -28,8 +28,11 @@ Klipper configuration files (Vertex Delta K8800, FLSUN QQ-S Pro)
 
 # menuconfig template files for Klipper boards
 >cp menuconfig.xxx ~/klipper/.config
+>
 >make clean
+>
 >sudo systemctrl stop klipper*.service
+>
 
 Flash according to board specific info
 
