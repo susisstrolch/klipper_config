@@ -36,32 +36,32 @@ Klipper configuration files (Vertex Delta K8800, FLSUN QQ-S Pro)
 
 Flash according to board specific info
 
->sudo systemcvtrl start klipper*.service
+>sudo systemctrl start klipper*.service
 
 ### menuconfig.BP
-	- BluePill
-	- HID-Bootloader
-	- 2k Bootloader size
-	- serial: /dev/serial/by-id/usb-Klipper_stm32f103xe_55FF6B064883524833322187-if00
-	Flashing:
-	  make flash FLASH_DEVICE=/dev/ttyACM0
+- Board: BluePill
+- HID-Bootloader
+- 2k Bootloader size
+- serial: /dev/serial/by-id/usb-Klipper_stm32f103xe_55FF6B064883524833322187-if00
 
+Flashing:
+>make flash FLASH_DEVICE=/dev/ttyACM0
 	
 ### menuconfig.Vertex
-	- Vertex Delta K8800
-	- RAMPS 1.3 compatible
-	- serial: /dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0
-	Flashing:
-	  make flash FLASH_DEVICE=/dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0
+- Board: Vertex Delta K8800 (RAMPS 1.4 compatible)
+- serial: /dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0
 
+Flashing:
+>make flash FLASH_DEVICE=/dev/serial/by-id/usb-1a86_USB2.0-Serial-if00-port0
 	
 ### menuconfig.QQSP
-	- FLSUN QQ-S Pro
-	- MKS Robin Mini compatible(??)
-	- serial: /dev/serial/by-id/usb-1a86_USB-Serial-if00-port0
-	Flashing:
-	  make
-	  update_mks_robin.py out/klipper.bin robin_mini.bin
-	  - copy the robin_mini.bin file to the printers SD card
-	  - insert SD card into printer
-	  - remove USB cable, toggle power switch, attach USB cable
+- FLSUN QQ-S Pro
+- MKS Robin Mini compatible(??)
+- serial: /dev/serial/by-id/usb-1a86_USB-Serial-if00-port0
+
+Flashing:
+>make
+>update_mks_robin.py out/klipper.bin robin_mini.bin
+  - copy the robin_mini.bin file to the printers SD card
+  - insert SD card into printer
+  - remove USB cable, toggle power switch, attach USB cable
